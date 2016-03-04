@@ -90,4 +90,5 @@ mod nix {
         write,
         dup,
     };
+    pub use nix::sys::socket::MsgFlags;
 }
